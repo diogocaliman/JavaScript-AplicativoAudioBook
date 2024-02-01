@@ -52,6 +52,7 @@ function proximoCapitulo() {
   tocarFaixa();
 }
 
+// Adicione um evento na interação ao site
 botaoPlayPause.addEventListener("click", tocarOuPausarFaixa);
 botaoCapituloAnterior.addEventListener("click", capituloAnterior);
 botaoProximoCapitulo.addEventListener("click", proximoCapitulo);
